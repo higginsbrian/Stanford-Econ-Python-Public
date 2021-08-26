@@ -16,6 +16,8 @@ In this repo we provide resources to learn python and get ready for the first ye
 4. Precamp problem set b (data) [[Notebook]](precamp_pset_b.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/higginsbrian/Stanford-Econ-Python-Public/blob/main/precamp_pset_b.ipynb)
 5. Precamp problem set c (pareto) [[Notebook]](precamp_pset_c.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/higginsbrian/Stanford-Econ-Python-Public/blob/main/precamp_pset_c.ipynb)
 
+**Note:** You can open the notebooks in Google Colab if you are logged into a google account. Though since you have already installed Python you can download and open the problem sets.
+
 
 ### More resources
 Here are some resources we found useful
