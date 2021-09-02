@@ -3,7 +3,7 @@
 This is a repo for Stanford Economics students who want to use Python during the first year PhD sequence. 
 
 ### Why Python? 
-1. **Popular**: one of the most used programming langugages in the 
+1. **Popular**: one of the most used programming langugages in the world!
 2. **Community**: the python community provides lots resources to make python better: open source packages; and forums with plenty of questions and answers; and videos and tutorials  to use packages.  
 3. **Free and open source:** You can always look under the hood to see what packages doing. Anyone can run your code without paying for software like Matlab or Stata, and Jupyter notebooks make it easy to share your code and results together. 
 4. **General purpose**: Modern economic research involves lots of tasks, many of which can be done in python: computing and estimating models (numpy, scipy, numba), data analysis (pandas), doing algebra (sympy), mapping (geopandas), machine learning (keras, tensorflow, pytorch), webscraping (beautiful soup), text analysis (nlkt), digitizing records (layout-parser), creating websites (Jupyter plus GitHubPages), parallel programming on the GPU (cupy, numba).
