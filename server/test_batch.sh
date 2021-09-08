@@ -3,7 +3,7 @@
 #SBATCH -job-name=test_run 
 #SBATCH -error=test.err 
 #SBATCH -output=test_output.out 
-#SBATCH -mail-type=ALL 
+
 
 echo "HELLO FROM FARMSHARE"
 
