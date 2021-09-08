@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH -p normal 
 #SBATCH -job-name=test_run 
-#SBATCH -error=test_%j.err 
-#SBATCH -output=test_output_%j.out 
+#SBATCH -error=test_.err 
+#SBATCH -output=test_output_.out 
 #SBATCH -nodes=1 
 #SBATCH -mail-type=ALL 
 
