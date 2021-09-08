@@ -4,7 +4,6 @@
 #SBATCH -error=test.err 
 #SBATCH -output=test_output.out 
 
-
 echo "HELLO FROM FARMSHARE"
 
 git pull https://github.com/higginsbrian/Stanford-Econ-Python-Public/
