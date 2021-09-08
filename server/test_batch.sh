@@ -7,7 +7,9 @@
 #SBATCH -mail-type=ALL 
 
 echo "HELLO FROM FARMSHARE"
-cd ~/home/higginsb/server
+
+git pull https://github.com/higginsbrian/Stanford-Econ-Python-Public/
+cd ~/home/higginsb//Stanford-Econ-Python-Public/server
 
 module load matlab
 matlab -nodisplay -nosplash -nodesktop < server/test_matlab.m > test_output_matlab.txt
