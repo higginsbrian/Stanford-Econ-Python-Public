@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH -p normal 
 #SBATCH -job-name=test_run 
-#SBATCH -error=test_.err 
-#SBATCH -output=test_output_.out 
+#SBATCH -error=test.err 
+#SBATCH -output=test_output.out 
 #SBATCH -mail-type=ALL 
 
 echo "HELLO FROM FARMSHARE"
