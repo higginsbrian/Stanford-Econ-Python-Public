@@ -1,0 +1,63 @@
+
+###############################
+#Logging into rice
+# in the terminal type the following
+#alternatively log in with graphical interface 
+ssh username@rice.stanford.edu
+
+# follow instructions to enter password 
+
+
+# We are now on a server. We need to speak unix
+
+# what is the present directory
+pwd 
+
+# change directory back one
+cd ../
+
+# change directory to my folder
+cd ~higginsb/
+
+# check available modules, load stata and matlab, list loaded modules
+module avail
+module load matlab
+module load stata-mp/16
+module list
+
+# launch stata, use xstata for graphcal interface
+stata
+xstata
+
+#once launched you can use stata commands to print hello
+di ("hello world")
+exit
+
+# get a folder from  github (if folder doesn't exist already in your server folder)
+git clone https://github.com/higginsbrian/Stanford-Econ-Python-Public/
+
+# get a folder from  github (if folder already exists)
+git pull https://github.com/higginsbrian/Stanford-Econ-Python-Public/
+
+# change directory to this folder 
+cd ~higginsb/Stanford-Econ-Python-Public/
+
+# run stata do file 
+module load stata-mp/16
+stata-mp server/test_stata.do
+clear 
+exit
+
+# Submit a batch job, and then check that it is in the squeue 
+sbatch Stanford-Econ-Python-Public/server/test_batch.sbatch
+squeue
+
+# if you get an error it may be because sometimes a windows file needs to be changed to unix using dos2unix 
+dos2unix server/test_batch.sbatch
+
+#cancel batch job
+scancel -jobnumber
+
+
+#see slides for more server and batch examples
+

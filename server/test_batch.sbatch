@@ -1,13 +1,13 @@
 #!/bin/bash
 #SBATCH -p normal 
-#SBATCH -job-name=test_run 
-#SBATCH -error=test.err 
-#SBATCH -output=test_output.out 
+#SBATCH --job-name=test_run 
+#SBATCH --error=test.err 
+#SBATCH --output=test_output.out 
 
 echo "HELLO FROM FARMSHARE"
 
 git pull https://github.com/higginsbrian/Stanford-Econ-Python-Public/
-cd ~/home/higginsb/Stanford-Econ-Python-Public/server
+cd home/higginsb/Stanford-Econ-Python-Public/server
 
 module load matlab
 matlab -nodisplay -nosplash -nodesktop < server/test_matlab.m > test_output_matlab.txt
